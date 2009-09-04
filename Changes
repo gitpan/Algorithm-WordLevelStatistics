@@ -1,0 +1,10 @@
+Revision history for Perl extension Algorithm::WordLevelStatistics.
+
+0.02
+
+ - removed the dependency from Statistics::Lite
+ - sppedup improvements and now the code is *really* self contained
+
+0.01  Tue Mar 18 18:45:34 2003
+
+ - original version.
