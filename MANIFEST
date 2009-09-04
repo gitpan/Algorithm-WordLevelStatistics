@@ -6,3 +6,4 @@ Makefile.PL
 MANIFEST
 META.yml
 t/1.t
+t/Relativity.test

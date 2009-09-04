@@ -8,7 +8,7 @@ package Algorithm::WordLevelStatistics;
 use strict;
 
 use vars qw($VERSION);
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 sub new {
   my $class = shift;
@@ -117,7 +117,7 @@ Algorithm::WordLevelStatistics - Pure Perl implementation of the "words level st
 
 =head1 DESCRIPTION
 
-This module implements the word leval statistics algorithm as described in: P. Carpena, P. Bernaola-Galav, M. Hackenberg, A.V. Coronado and J.L. Oliver, "Level statistics of words: finding keywords in literary texts and DNA", Physical Review E 79, 035102-4 ( DOI: 10.1103/PhysRevE.79.035102 ) 
+This module implements the word leval statistics algorithm as described in: P. Carpena, P. Bernaola-Galav, M. Hackenberg, A.V. Coronado and J.L. Oliver, "Level statistics of words: finding keywords in literary texts and DNA", Physical Review E 79, 035102-4 ( DOI: 10.1103/PhysRevE.79.035102 )
 
 =head1 METHODS
 
@@ -169,6 +169,10 @@ The word level statistics does not need a reference corpus but it uses just one 
 =head1 HISTORY
 
 =over 4
+
+=item 0.03
+
+Corrected the test case (added test file to tarball.
 
 =item 0.02
 
